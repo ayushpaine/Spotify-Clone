@@ -1,0 +1,544 @@
+<!DOCTYPE html>
+<div>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <head>
+        <link rel="stylesheet" href="style.css" type="text/css">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+        <link href="//db.onlinewebfonts.com/c/01173b246d9d9ea808ea75a26b3b61bb?family=Circular+Spotify+Tx+T+Black" rel="stylesheet" type="text/css">
+        <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" />
+
+        <title>
+            Music for everyone - Spotify
+        </title>
+    </head>
+    <nav class="navbar  navbar-dark navbar-expand-md fixed-top">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+                <img src="images/Spotify_Logo_RGB_White.png" class="nav-image" alt="" width="132" height="40"></a>
+            <ul class="nav navbar-nav" id="navbar" style="position: relative;">
+                <li class="nav-item" id="notprofile-pic">
+                    <a class="nav-link" href="#">
+                        <b>Premium</b>
+                    </a>
+                </li>
+                <li class="nav-item " id="notprofile-pic">
+                    <a class="nav-link " href="# ">
+                        <b>Support</b>
+                    </a>
+                </li>
+                <li class="nav-item" id="notprofile-pic">
+                    <a class="nav-link" href="#">
+                        <b>Download</b>
+                    </a>
+                </li>
+                <li class="nav-item " id="notprofile-pic">
+                    <img src="images/106-1062182_vertical-line-white-twitter-white-icon-png.png " id="bar">
+                </li>
+                <li class="nav-item">
+                    <a href="#">
+                        <img src="images/banana.jpg" height="40" width="40" style="border-radius: 50%;" class="banana-pic">
+                    </a>
+                </li>
+                <li class="nav-item dropdown" id="notprofile-pic">
+                    <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#">
+                        <b>Profile</b>
+                        <span class="caret"></span>
+                    </a>
+                    <div class="dropdown-menu">
+                        <a class="dropdown-item" href="#" id="drop"><b>Account</b></a>
+                        <a class="dropdown-item" href="#" style="font-weight: 600 !important; color:#8a8c8d;" id="drop">Log Out</a>
+                    </div>
+                </li>
+                <li class="nav-item">
+                    <div class="burger">
+                        <div class="line1"></div>
+                        <div class="line2"></div>
+                        <div class="line3"></div>
+                    </div>
+                </li>
+            </ul>
+        </div>
+        <ul class="navbar2">
+            <li>
+                <a href="#" class="big">Premium</a>
+            </li>
+            <li>
+                <a href="#" class="big">Support</a>
+            </li>
+            <li>
+                <a href="#" class="big">Download</a>
+            </li>
+            <li style="padding-top: 2em; padding-bottom: 2em;">
+                <div style="background-color: white; width: 25px; height: 1px;">
+                </div>
+            </li>
+            <li>
+                <a href="#" class="smaller">Account</a>
+            </li>
+            <li>
+                <a href="#" class="smaller">Log out</a>
+            </li>
+            <li>
+                <a href="#"><img src="images/Spotify_Logo_RGB_White.png" alt="" width="100" height="30" style="margin-top: 40vh;"></a>
+            </li>
+        </ul>
+    </nav>
+    <div class="middle-section">
+        <div class="middle-text">
+            <div class="text">
+                <div class="fine-text">
+                    Recently Played
+                </div>
+                <div class="big-text">
+                    Jump back in
+                </div>
+                <div class="small-text">
+                    Pick up your music right where you left off.
+                    <br>
+                </div>
+                <div class="buttonplayer">
+                    <button class="web-player">OPEN WEB PLAYER</button>
+                </div>
+            </div>
+
+            <div class="cards">
+                <div class="song-card">
+                    <img src="images/download (3).jfif" class="img">
+                    <a href="#" class="card-link">
+                        <div class="overlay">
+                            <div class="play-icon">
+                                <i class="far fa-play-circle"></i>
+                            </div>
+                            <div class="song-name">
+                                Devilman No Uta
+                            </div>
+                            <div class="artist">
+                                Kensuke Usio
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="song-card">
+                    <img src="images/overture.png" class="img">
+                    <a href="#" class="card-link">
+                        <div class="overlay">
+                            <div class="play-icon">
+                                <i class="far fa-play-circle"></i>
+                            </div>
+                            <div class="song-name">
+                                il vento d'oro
+                            </div>
+                            <div class="artist">
+                                Yugo Kanno
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="song-card">
+                    <img src="images/The_Less_I_Know_the_Better.jpg" class="img">
+                    <a href="#" class="card-link">
+                        <div class="overlay">
+                            <div class="play-icon">
+                                <i class="far fa-play-circle"></i>
+                            </div>
+                            <div class="song-name">
+                                The Less I Know the Better
+                            </div>
+                            <div class="artist">
+                                Tame Impala
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="song-card">
+                    <img src="images/aots4.jpg" class="img">
+                    <a href="#" class="card-link">
+                        <div class="overlay">
+                            <div class="play-icon">
+                                <i class="far fa-play-circle"></i>
+                            </div>
+                            <div class="song-name">
+                                Boku no Sensou
+                            </div>
+                            <div class="artist">
+                                Shinsei Kamattechan
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="song-card">
+                    <img src="images/02d2b31b49a9c4a2e1a3e565770227e5.640x640x1.jpg" class="img">
+                    <a href="#" class="card-link">
+                        <div class="overlay">
+                            <div class="play-icon">
+                                <i class="far fa-play-circle"></i>
+                            </div>
+                            <div class="song-name">
+                                Black Rover
+                            </div>
+                            <div class="artist">
+                                Vickeblanka
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="song-card">
+                    <img src="images/400x400bb.jpeg" class="img">
+                    <a href="#" class="card-link">
+                        <div class="overlay">
+                            <div class="play-icon">
+                                <i class="far fa-play-circle"></i>
+                            </div>
+                            <div class="song-name">
+                                Steel Ball Run Johnny Joestar Theme
+                            </div>
+                            <div class="artist">
+                                Friedrich Habetler
+                            </div>
+                        </div>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="carousel">
+                <div class="track">
+                    <div class="card"><img src="images/download (3).jfif">
+                        <div class="carousel-text-cont">
+                            <div class="carousel-text" id="text1">Devilman No Uta</div>
+                            <div class="carousel-text" id="text2">Kensuke Usia</div>
+                            <div class="carousel-text" id="text3"><a href="#" class="link3">PLAY NOW</a></div>
+                        </div>
+                    </div>
+                    <div class="card"><img src="images/overture.png">
+                        <div class="carousel-text-cont">
+                            <div class="carousel-text" id="text1"> il vento d'oro</div>
+                            <div class="carousel-text" id="text2">Yugo Kanno</div>
+                            <div class="carousel-text" id="text3"><a href="#" class="link3">PLAY NOW</a></div>
+                        </div>
+                    </div>
+                    <div class="card"><img src="images/The_Less_I_Know_the_Better.jpg">
+                        <div class="carousel-text-cont">
+                            <div class="carousel-text" id="text1">The Less I Know the Better</div>
+                            <div class="carousel-text" id="text2">Tame Impala</div>
+                            <div class="carousel-text" id="text3"><a href="#" class="link3">PLAY NOW</a></div>
+                        </div>
+                    </div>
+                    <div class="card"><img src="images/aots4.jpg">
+                        <div class="carousel-text-cont">
+                            <div class="carousel-text" id="text1">Boku no Sensou</div>
+                            <div class="carousel-text" id="text2">Shinsei Kamattechan</div>
+                            <div class="carousel-text" id="text3"><a href="#" class="link3">PLAY NOW</a></div>
+                        </div>
+                    </div>
+                    <div class="card"><img src="images/02d2b31b49a9c4a2e1a3e565770227e5.640x640x1.jpg">
+                        <div class="carousel-text-cont">
+                            <div class="carousel-text" id="text1">Black Rover</div>
+                            <div class="carousel-text" id="text2">Vickeblanka</div>
+                            <div class="carousel-text" id="text3"><a href="#" class="link3">PLAY NOW</a></div>
+                        </div>
+                    </div>
+                    <div class="card"><img src="images/400x400bb.jpeg">
+                        <div class="carousel-text-cont">
+                            <div class="carousel-text" id="text1">Steel Ball Run Johnny Joestar Theme</div>
+                            <div class="carousel-text" id="text2">Friedrich Habetler</div>
+                            <div class="carousel-text" id="text3"><a href="#" class="link3">PLAY NOW</a></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <br>
+    <br>
+    <div class="bounce-icon">
+        <a href="#target"> <img src="images/chevron.svg" class="icon"></a>
+    </div>
+    <br>
+    <br>
+    <div class="stats" id="target">
+        <div class="stats-header">
+            Your latest listening trends
+        </div>
+        <div class="applets">
+            <div class="content">
+                <div class="applet-title">
+                    top artist
+                </div>
+                <div class="applet-img">
+                    <img src="images/aots4.jpg" class="applet-actual-img">
+                </div>
+                <div class="applet-text">
+                    <div class="cover1">
+                        <div class="applet-text-head">
+                            top artist
+                        </div>
+                    </div>
+                    <div class="cover2">
+                        <div class="applet-text-name">
+                            linked horizon
+                        </div>
+                    </div>
+                    <div class="applet-text-link">
+                        <a href="#" class="applet-link">
+                            PLAY NOW
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="content">
+                <div class="applet-title">
+                    top track
+                </div>
+                <div class="applet-img">
+                    <img src="images/aots4.jpg" class="applet-actual-img">
+                </div>
+                <div class=" applet-text ">
+                    <div class="cover1 ">
+                        <div class="applet-text-head ">
+                            top track
+                        </div>
+                    </div>
+                    <div class="cover2">
+                        <div class=" applet-text-name ">
+                            Boku no Sensou
+                        </div>
+                    </div>
+                    <div class="applet-text-link ">
+                        <a href="#" class="applet-link">
+                            PLAY NOW
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="app ">
+        <div class="app-flex ">
+            <div class="heading ">
+                Make the most of Spotify
+            </div>
+            <br>
+            <div class="extra-options ">
+                <div class="manage-account ">
+                    <div class="extra-head " style="padding-right: 1em; ">
+                        Manage your account
+                    </div>
+                    <div class="extra-info " style="padding-right: 5em; ">
+                        Edit your profile, change your password, and update your payment information.
+                    </div>
+                    <br>
+                    <div class="final-link-div ">
+                        <a href="# " class="final-link ">
+                                manage account
+                            </a>
+                    </div>
+                </div>
+                <div class="free-app ">
+                    <div class="extra-head ">
+                        Get our free app
+                    </div>
+                    <div class="extra-info ">
+                        Seamlessly listen to music you love. Download the Spotify app for your computer.
+                    </div>
+                    <br>
+                    <div class="final-link-div ">
+                        <a href="# " class="final-link ">
+                                download desktop app
+                        </a>
+                    </div>
+
+                </div>
+                <div class="listen-web ">
+                    <div class="extra-head ">
+                        Listen on the web
+                    </div>
+                    <div class="extra-info ">
+                        To play and share music without the app, all within your browser, go to
+                        <a href="# " class="spotify-link ">play.spotify.com.</a>
+                    </div>
+                    <br>
+                    <div class="final-link-div ">
+                        <a href="# " class="final-link ">open web player</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="footer ">
+        <div class="social">
+            <div class="logo-col ">
+                <img src="images/Spotify_Logo_RGB_White.png " class="footer-image ">
+            </div>
+            <div class="flex-of-grid ">
+                <div class="columns ">
+                    <div class="company-col " style="width: 200%; padding-right: 0em; ">
+                        <ul class="last ">
+                            <li>
+                                <div class="list-header ">COMPANY</div>
+                            </li>
+                            <div class="remaining ">
+                                <li>
+                                    <a href="# " class="footer-link ">
+                                About
+                                </a>
+                                </li>
+                                <li>
+                                    <a href="# " class="footer-link ">
+                                Jobs
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="# " class="footer-link ">
+                                For the Record
+                                    </a>
+                                </li>
+                            </div>
+                        </ul>
+                    </div>
+                </div>
+                <div class="columns ">
+                    <div class="community-col " style="width: 200%; padding-right: 0em; ">
+                        <ul class="last ">
+                            <li>
+                                <div class="list-header ">COMMUNITIES</div>
+                            </li>
+                            <div class="remaining ">
+                                <li>
+                                    <a href="# " class="footer-link ">
+                                For Artists
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="# " class="footer-link ">
+                                Developers
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="# " class="footer-link ">
+                                Advertising
+                                </a>
+                                </li>
+                                <li>
+                                    <a href="# " class="footer-link ">
+                                Investors
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="# " class="footer-link ">  
+                                Vendors
+                                    </a>
+                                </li>
+                            </div>
+                        </ul>
+                    </div>
+                </div>
+                <div class="columns ">
+                    <div class="useful-col " style="width: 200%; padding-right: 0em; ">
+                        <ul class="last ">
+                            <li>
+                                <div class="list-header ">USEFUL LINKS</div>
+                            </li>
+                            <div class="remaining ">
+                                <li>
+                                    <a href="# " class="footer-link ">
+                                Support
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="# " class="footer-link ">
+                                Web Player
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="# " class="footer-link ">
+                                Free Mobile App
+                                    </a>
+                                </li>
+                            </div>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="social-logo ">
+                <div class="social-border ">
+                    <a href="# " class="socials ">
+                        <i class="fa fa-instagram " style="font-size:27px; "></i>
+                    </a>
+                </div>
+                <div class="social-border ">
+                    <a href="# " class="socials ">
+                        <i class="fa fa-twitter " style="font-size:27px; "></i>
+                    </a>
+                </div>
+                <div class="social-border ">
+                    <a href="# " class="socials ">
+                        <i class="fa fa-facebook " style="font-size:27px; "></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <br>
+        <br>
+        <br>
+        <br>
+        <div class="info ">
+            <div class="flag-info ">
+                <div style="margin-right: 5px; ">
+                    <i class="fa fa-globe " style="color:#919496 "></i>
+                </div>
+                <div>
+                    <a href="# " class="feeling-proud ">
+                            INDIA
+                        </a>
+                </div>
+            </div>
+            <div class="final ">
+                <div class="extra-inf ">
+                    <ul class="list ">
+                        <li class="final-elements ">
+                            <a href="# " class="final-links ">
+                            Legal
+                                </a>
+                        </li>
+
+                        <li class="final-elements ">
+                            <a href="# " class="final-links ">
+                            Privacy Center
+                                </a>
+                        </li>
+                        <li class="final-elements ">
+                            <a href="# " class="final-links ">
+                            Privacy Policy
+                                </a>
+                        </li>
+                        <li class="final-elements ">
+                            <a href="# " class="final-links ">
+                            Cookies
+                                </a>
+                        </li>
+                        <li class="final-elements ">
+                            <a href="# " class="final-links ">
+                            About Ads
+                                </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="end ">
+                    © 2021 Spotify AB
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+<script src="app.js"></script>
+
+
+</body>
+
+</html>
