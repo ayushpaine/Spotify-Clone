@@ -1112,7 +1112,6 @@ body {
     left: -20vw;
     top: -3em;
     position: relative;
-    overflow: auto hidden;
     display: none;
 }
 
