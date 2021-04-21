@@ -1167,6 +1167,7 @@ body {
     letter-spacing: 1.5px;
     transition: all ease-in-out 0.2s;
     position: relative;
+    cursor: grab;
 }
 
 .link3:hover {
